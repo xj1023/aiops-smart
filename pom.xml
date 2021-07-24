@@ -1,14 +1,14 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <groupId>com.github.shalousun</groupId>
+    <groupId>com.github.aiops</groupId>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>smart</artifactId>
+    <artifactId>aiops-smart</artifactId>
     <packaging>jar</packaging>
     <version>2.2.3</version>
 
-    <name>smart-doc</name>
-    <url>https://github.com/AnlnTse/smart-doc.git</url>
+    <name>aiops-smart</name>
+    <url>https://github.com/AnlnTse/aiops-smart.git</url>
     <description>Smart-doc is a tool that supports both JAVA RESTFUL API and Apache Dubbo RPC interface document
         generation.
     </description>
@@ -21,15 +21,15 @@
         </license>
     </licenses>
     <scm>
-        <url>https://github.com/smart-doc-group/smart-doc.git</url>
-        <connection>scm:https://github.com/smart-doc-group/smart-doc.git</connection>
-        <developerConnection>scm:https://github.com/smart-doc-group/smart-doc.git</developerConnection>
+        <url>https://github.com/AnlnTse/aiops-smart.git</url>
+        <connection>scm:https://github.com/AnlnTse/aiops-smart.git</connection>
+        <developerConnection>scm:https://github.com/AnlnTse/aiops-smart.git</developerConnection>
     </scm>
     <developers>
         <developer>
-            <name>shalousun</name>
-            <email>836575280@qq.com</email>
-            <url>https://github.com/shalousun</url>
+            <name>smart</name>
+            <email>smart-doc-group</email>
+            <url>https://github.com/AnlnTse</url>
         </developer>
     </developers>
     <properties>
@@ -122,7 +122,7 @@
                 </executions>
             </plugin>
         </plugins>
-        <finalName>smart-doc</finalName>
+        <finalName>aiops-smart</finalName>
     </build>
     <profiles>
         <profile>
@@ -132,7 +132,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
-                        <version>1.6</version>
+                        <!--<version>1.6</version>-->
                         <executions>
                             <execution>
                                 <id>sign-artifacts</id>
